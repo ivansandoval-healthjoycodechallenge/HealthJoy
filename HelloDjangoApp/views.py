@@ -12,10 +12,8 @@ from django.contrib import messages
 def index(request):
     if request.method == 'POST':
         form = GitHubCreds(request.POST)
-        if form.is_valid():
-            
+        if form.is_valid():            
            try:
-
             # Github username
             token = request.POST.get('token')
         
@@ -24,14 +22,11 @@ def index(request):
             github_user = gg.get_user()
         
             # this applications repo PAT 
-            # ideally store somewhere secure... 
+            # ideally store secure... 
             g = Github('bc54d96e80ae7a915c0666683f976ddee4cc009b')     
             repo = g.get_repo("ivansandoval-healthjoycodechallenge/HealthJoy")            
 
-            #could check to see if fork already exsits.
-            #for the sake of this im just going to assume it hasnt been forked yet
-
-            # fork the repo to the users account
+             # fork the repo to the users account
             myfork = github_user.create_fork(repo)  
                    
             #give the user a success message
