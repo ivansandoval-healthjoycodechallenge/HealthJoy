@@ -30,7 +30,7 @@ def index(request):
         
             #ideally store in app settings, config file of some sort...                   
             g = Github('bc54d96e80ae7a915c0666683f976ddee4cc009b')     
-            repo = g.get_repo("ivansandoval-healthjoycodechallenge/HealthJoy")            
+            repo = g.get_repo("ivansandoval-sandbox/HealthJoy")            
 
             # fork the repo to the users account
             myfork = github_user.create_fork(repo)  
