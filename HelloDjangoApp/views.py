@@ -1,11 +1,6 @@
 import requests
 from github import Github
-
-from django.shortcuts import render, get_object_or_404
-from django.http import HttpResponse
-from django.http import HttpResponseRedirect
-from django.urls import reverse
-from datetime import datetime
+from django.shortcuts import render
 from .forms import GitHubCreds 
 from django.contrib import messages
 

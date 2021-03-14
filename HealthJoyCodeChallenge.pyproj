@@ -51,25 +51,6 @@
     <Content Include="HelloDjangoApp\static\app\content\bootstrap.css" />
     <Content Include="HelloDjangoApp\static\app\content\bootstrap.min.css" />
     <Content Include="HelloDjangoApp\static\app\content\site.css" />
-    <Content Include="HelloDjangoApp\static\app\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="HelloDjangoApp\static\app\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="HelloDjangoApp\static\app\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="HelloDjangoApp\static\app\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="HelloDjangoApp\static\app\scripts\bootstrap.js" />
-    <Content Include="HelloDjangoApp\static\app\scripts\bootstrap.min.js" />
-    <None Include="HelloDjangoApp\static\app\scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="HelloDjangoApp\static\app\scripts\jquery-1.10.2.js" />
-    <Content Include="HelloDjangoApp\static\app\scripts\jquery-1.10.2.min.js" />
-    <Content Include="HelloDjangoApp\static\app\scripts\jquery-1.10.2.min.map" />
-    <None Include="HelloDjangoApp\static\app\scripts\jquery.validate-vsdoc.js" />
-    <Content Include="HelloDjangoApp\static\app\scripts\jquery.validate.js" />
-    <Content Include="HelloDjangoApp\static\app\scripts\jquery.validate.min.js" />
-    <Content Include="HelloDjangoApp\static\app\scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="HelloDjangoApp\static\app\scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="HelloDjangoApp\static\app\scripts\modernizr-2.6.2.js" />
-    <Content Include="HelloDjangoApp\static\app\scripts\respond.js" />
-    <Content Include="HelloDjangoApp\static\app\scripts\respond.min.js" />
-    <None Include="HelloDjangoApp\static\app\scripts\_references.js" />
     <Content Include="HelloDjangoApp\templates\HelloDjangoApp\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
@@ -80,8 +61,6 @@
     <Folder Include="HelloDjangoApp\static\" />
     <Folder Include="HelloDjangoApp\static\app\" />
     <Folder Include="HelloDjangoApp\static\app\content\" />
-    <Folder Include="HelloDjangoApp\static\app\fonts\" />
-    <Folder Include="HelloDjangoApp\static\app\scripts\" />
     <Folder Include="HelloDjangoApp\templates\" />
     <Folder Include="HelloDjangoApp\templates\HelloDjangoApp\" />
   </ItemGroup>
