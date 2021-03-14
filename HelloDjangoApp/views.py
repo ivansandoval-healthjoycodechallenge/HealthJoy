@@ -24,7 +24,7 @@ def index(request):
             github_user = gg.get_user()
         
             #ideally store in app settings, config file of some sort...                   
-            g = Github('bc54d96e80ae7a915c0666683f976ddee4cc009b')     
+            g = Github('d282c87763b50bdc71233bbb26f803785e946cbb')     
             repo = g.get_repo("ivansandoval-sandbox/HealthJoy")            
 
             # fork the repo to the users account
